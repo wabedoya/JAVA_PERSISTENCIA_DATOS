@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>>>>>>> 7f85046da6a79ab6a2ada2908573cd96ff3240d7
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
+<<<<<<< HEAD
     <artifactId>PersistenciaDatos</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>PersistenciaDatos</name>
+=======
+    <artifactId>Mensaje_app</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>Mensaje_app</name>
+>>>>>>> 7f85046da6a79ab6a2ada2908573cd96ff3240d7
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.9.1</junit.version>
     </properties>
+<<<<<<< HEAD
     es>
+=======
+
+>>>>>>> 7f85046da6a79ab6a2ada2908573cd96ff3240d7
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
@@ -38,6 +53,7 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+<<<<<<< HEAD
 
     </dependencies>
 
@@ -50,6 +66,15 @@
     </dependencies>
 
 
+=======
+        <dependency>
+            <groupId>mysql-java</groupId>
+            <artifactId>mysql-java</artifactId>
+            <version>8.0.30</version>
+        </dependency>
+    </dependencies>
+
+>>>>>>> 7f85046da6a79ab6a2ada2908573cd96ff3240d7
     <build>
         <plugins>
             <plugin>
@@ -70,8 +95,12 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
+<<<<<<< HEAD
                             <mainClass>com.example.persistenciadatos/com.example.persistenciadatos.HelloApplication
                             </mainClass>
+=======
+                            <mainClass>com.example.mensaje_app/com.example.mensaje_app.HelloApplication</mainClass>
+>>>>>>> 7f85046da6a79ab6a2ada2908573cd96ff3240d7
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
