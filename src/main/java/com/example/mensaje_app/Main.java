@@ -11,6 +11,7 @@ public class Main {
         do {
             System.out.println("---------------------");
             System.out.println("MENU");
+            System.out.println("------------------------");
             System.out.println("1. CREAR MENSAJE");
             System.out.println("2. lISTAR MENSAJES");
             System.out.println("3. EDITAR MENSAJE");
